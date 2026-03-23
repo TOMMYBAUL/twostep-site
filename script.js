@@ -36,12 +36,12 @@ if (form) {
       } else {
         submitBtn.disabled = false;
         submitBtn.textContent = 'Je veux être contacté →';
-        alert('Une erreur est survenue. Réessaye ou écris-nous à bauland@twostep.fr');
+        alert('Une erreur est survenue. Réessayez ou écrivez-nous à bauland@twostep.fr');
       }
     } catch {
       submitBtn.disabled = false;
       submitBtn.textContent = 'Je veux être contacté →';
-      alert('Une erreur est survenue. Réessaye ou écris-nous à bauland@twostep.fr');
+      alert('Une erreur est survenue. Réessayez ou écrivez-nous à bauland@twostep.fr');
     }
   });
 }
